@@ -1,0 +1,26 @@
+# The .gitattributes file is used to define settings to specified files: git pattern and attributes to pathnames. 
+# Syntax: <pattern> <attribute1> <attribute2> ...
+# See the docs at https://git-scm.com/docs/gitattributes.
+
+# Setting text attribute to auto so as to handle line ending conversion of text-based files from different operating systems on check in
+# (new files introduced to the repo). Git will enforce end-of-line normalization (on push) of all non-ignored text files to LF (line feed) endings,
+# replacing CRLF (carriage return and line feed) bytes with LF bytes. Local files (remote copy on-prem from git's working tree) will stay intact while files pushed
+# to the upstream repository will undergo change.
+
+* text=auto
+
+# Setting the eol attribute (line-ending style) to convert the following file types to LF (line feed) ending on check out:
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Ignoring .ipynb (jupyter) files in stat count:
+*.ipynb linguist-detectable=false
+
+
+# Notes:
+## Run "git add --renormalize ." to apply changes to all tracked files pushed before .gitattributes was commited. 
+## Run "git ls-files --eol" to check line endings for current files.
+
+

@@ -1,0 +1,18 @@
+# .editorconfig is used to define the coding style for editors and IDEs.
+# c.f. http://editorconfig.org
+
+root = true
+
+[*]
+
+# Indentation:
+indent_style = space
+indent_size = 2
+
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false

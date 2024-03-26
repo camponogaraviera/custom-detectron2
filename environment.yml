@@ -1,0 +1,15 @@
+name: detect2
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python==3.8.18
+  - pytorch==2.2.0
+  - torchvision==0.17.0
+  - cudatoolkit==11.0.221
+  - pip:
+      - cython==3.0.8
+      - opencv-python==4.9.0.80
+      - imageio==2.33.1
+      - moviepy==1.0.3
+      - pytest==8.0.0

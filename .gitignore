@@ -1,0 +1,15 @@
+# Assets
+#*.mp4
+#taipei.mp4
+
+# Trained models
+output*
+
+# Pytest
+pytest_report.xml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/ 
+.pytest_cache/
+*.py[cod]
+*$py.class
