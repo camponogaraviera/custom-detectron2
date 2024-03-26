@@ -22,6 +22,8 @@ Training [Detectron2](https://github.com/facebookresearch/detectron2) models on 
   <a href="assets/gif.gif"><img src="assets/gif.gif" width="350"></a> 
 </div>
 
+https://github.com/camponogaraviera/custom-detectron2/assets/32492947/d8b70c40-638e-41c3-baf9-2ec1365cfe62
+
 # Install dependencies
 
 Create the conda environment:
