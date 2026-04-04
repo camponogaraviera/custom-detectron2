@@ -1,0 +1,24 @@
+name: detectron2
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9.13
+  - pytorch==2.2.0
+  - pytorch-cuda==12.1
+  - pytorch-mutex==1.0
+  - torchtriton==2.2.0
+  - torchvision==0.17.0
+  - cython==3.0.8
+  - moviepy==1.0.3
+  - opencv==4.9
+  - imageio==2.33.1
+  - numpy==1.26.4
+  - pytest==8.0.0
+  - black==25.1.0
+  - flake8==7.3.0
+  - pre-commit==4.3.0 
+      
+      
