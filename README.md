@@ -17,9 +17,9 @@
 
 # About
 
-- Demonstrates how to fine-tune [Detectron2](https://github.com/facebookresearch/detectron2) models (Mask R-CNN, Faster R-CNN) for image segmentation and object detection on a [custom](https://detectron2.readthedocs.io/tutorials/datasets.html) dataset.
+- This repository demonstrates how to fine-tune [Detectron2](https://github.com/facebookresearch/detectron2) models (Mask R-CNN, Faster R-CNN) for image segmentation and object detection on a [custom](https://detectron2.readthedocs.io/tutorials/datasets.html) dataset.
 - Provides an image segmentation dataset manually built using Labelme+ for bounding box and mask annotations.
-- MLOps pipeline: Data pre-processing and registration, model fine-tuning, evaluation, and real-time inference with automated tests.
+- MLOps pipeline: Data pre-processing and registration, model fine-tuning, and real-time inference.
 
 Note: One can find a summary of object detection models at the end of this README.
 
