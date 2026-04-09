@@ -1,0 +1,37 @@
+#----- Custom -----#
+
+# Artifacts
+/artifacts/
+
+*.log
+*.log.mbtree
+
+#----- VS Code / PyCharm -----#
+
+.vscode/
+.idea/
+
+#----- Byte-compiled / Optimized / DLL files -----# 
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+#----- Python virtual environment folders -----#
+
+venv/
+env/
+
+#----- Distribution / Packaging -----#
+
+build/
+dist/
+*.egg-info/
+
+# Editable install markers
+*.egg
+
+#----- Pytest -----#
+
+pytest_report.xml
+.pytest_cache
